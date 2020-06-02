@@ -2,6 +2,7 @@
 @include 'config.php';
 require_once 'vendor/autoload.php';
 
+date_default_timezone_set ('Africa/Abidjan'); 
 // REDBEAN CONFIGURATION
 use RedBeanPHP\Facade as RedBean;
 
